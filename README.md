@@ -7,7 +7,7 @@ Intuitive. Simple. Elegant.
 
 Free plan available · No account required · No app telemetry
 
-[Website](https://kafma.app) · [Download](#download) · [Documentation](https://kafma.app/docs) · [Blog](https://kafma.app/blog) · [Pricing](https://kafma.app/pricing) · [Discussions](https://github.com/kafma-app/kafma/discussions) · [Issues](https://github.com/kafma-app/kafma/issues)
+[Download](#download) · [Website](https://kafma.app) · [Documentation](https://kafma.app/docs) · [Pricing](https://kafma.app/pricing)
 
 ![Latest release](https://img.shields.io/github/v/release/kafma-app/kafma?label=latest&color=7c3aed)
 ![Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-6b7094)
