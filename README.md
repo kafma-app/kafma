@@ -3,9 +3,11 @@
 **The Kafka GUI client and desktop IDE.**
 
 Debug faster. Close the gap between prod and dev.<br>
-Intuitive. Simple. Beautiful.
+Intuitive. Simple. Elegant.
 
-[Website](https://kafma.app) · [Documentation](https://kafma.app/docs) · [Blog](https://kafma.app/blog) · [Pricing](https://kafma.app/pricing) · [Discussions](https://github.com/kafma-app/kafma/discussions) · [Issues](https://github.com/kafma-app/kafma/issues)
+Free plan available · No account required · No app telemetry
+
+[Website](https://kafma.app) · [Download](#download) · [Documentation](https://kafma.app/docs) · [Blog](https://kafma.app/blog) · [Pricing](https://kafma.app/pricing) · [Discussions](https://github.com/kafma-app/kafma/discussions) · [Issues](https://github.com/kafma-app/kafma/issues)
 
 ![Latest release](https://img.shields.io/github/v/release/kafma-app/kafma?label=latest&color=7c3aed)
 ![Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-6b7094)
@@ -16,10 +18,11 @@ Read: [A New Kafka Viewer for a Better Debugging Workflow](https://kafma.app/blo
 
 ## What's inside
 
-- **Console** — One tab per topic: produce below, consume above. Live tail, Watch Group, automatic Avro/Protobuf decoding through Schema Registry, plus replay, forwarding, and JSON/CSV export.
-- **Schemas** — Draft diffs against the live version, historical comparisons, mock data, and Lab validation before you publish.
-- **Data Clone** — Copy a topic's configuration, schemas, and a slice of messages to another cluster, masking sensitive fields on the way without modifying the source cluster.
-- **Topics, consumer groups, and brokers** — Manage topics, inspect lag and assignments, reset offsets, and browse configuration with an Overrides-only view.
+- **[Kafka Console](https://kafma.app/features/kafka-console)** — Produce, consume, and inspect messages in one workspace. Send batches, run loops, or produce from a file. Auto-decode Avro and Protobuf, then replay or export messages.
+- **[Kafka Schema Explorer](https://kafma.app/features/kafka-schema-registry)** — Browse, register, and evolve Avro, Protobuf, and JSON schemas. Preview draft changes as you type. Generate mock payloads or validate JSON against any registered version.
+- **[Kafka Data Clone](https://kafma.app/features/kafka-data-clone)** — Copy a topic's settings, schemas, and messages between clusters. Mask sensitive fields during the copy. The source stays read-only.
+- **[Kafka Consumer Inspector](https://kafma.app/features/kafka-consumer-groups)** — Track consumer lag by group, topic, and partition. Inspect members and assignments, then reset offsets or remove stale groups.
+- **Topics and brokers** — Manage topics and browse configuration with an Overrides-only view.
 - **Access control** — Browse Kafka ACLs read-only and simulate access against the rules visible through the Kafka Admin API.
 - **Operational safety** — Read-only cluster connections, typed confirmation before cloning into production, and rollback of supported changes from the Activity Log.
 - **Multi-cluster workspace** — Self-hosted Kafka, Confluent Cloud, and Amazon MSK with SASL (PLAIN, SCRAM, OAUTHBEARER), mTLS, or AWS IAM; pin favorites to Home and jump anywhere with global search.
